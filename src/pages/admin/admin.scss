@@ -1,0 +1,17 @@
+.admin {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  transition: 0.3s;
+}
+
+.hello {
+  color: red;
+}
+
+.manage {
+  &__title {
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+  }
+}
